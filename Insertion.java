@@ -16,7 +16,7 @@ public class Insertion {
 
 	private static void insertionSort(int[] v) {
 		
-		for (int i=0 ; i<v.length ;i++) {
+		for (int i=1 ; i<v.length ;i++) {
 			int aux = v[i];
 			for(int j=i-1; j>=0 && v[j]>aux; j--) {
 				v[j+1]= v[j];
