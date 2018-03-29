@@ -18,9 +18,6 @@ public class CountingSort {
 
 	}
 
-	int[] array = null;
-	int maxVal = 0;
-
 	// percorrer e retorna o maior valor
 	public static int max(int[] array) {
 		int max = array[0];
@@ -35,12 +32,12 @@ public class CountingSort {
 	}
 
 	/*
-	 * countingSort () ir· implementar a ordenaÁ„o de contagem para o array de
-	 * par‚metros e armazenar o resultado dentro do array
+	 * countingSort () ir√° implementar a ordena√ß√£o de contagem para o array de
+	 * par√¢metros e armazenar o resultado dentro do array
 	 */
 	public static int[] countingSort(int[] array) {
 		/*
-		 * criando uma matriz de contagem que manter· a quantidade de vezes que cada
+		 * criando uma matriz de contagem que manter√° a quantidade de vezes que cada
 		 * valor ocorre
 		 */
 		int countLength = max(array);
