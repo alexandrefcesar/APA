@@ -12,8 +12,9 @@ public class AppMochila {
 		for (int i = 1; i <= nElem; i++) {
 			v[i][0] = 0;
 		}
-
+                // iterando em numero de elementos 
 		for (int i = 1; i <= nElem; i++) {
+			//iterando em linha para cada elemento 
 			for (int w = 1; w <= cap; w++) {
 				// elemento pode fazer parte da solucao caso do max
 				if (peso[i - 1] <= w) {
